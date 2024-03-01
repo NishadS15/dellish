@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dellish - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="hr-section" id="cart">
+      <div class="row">
+        <div class="navbar">
+          <div class="links">
+            <a class="nav-menu" href="#"
+              ><i class="fa-solid fa-cart-shopping icon"></i
+            ></a>
+            <a class="nav-menu" href=""
+              ><img src="img/logo.jpeg" alt="Delish Cakes"
+            /></a>
+            <div class="nav--bar">
+              <a class="nav-menu" href="#"
+                ><i
+                  class="fa-solid fa-bars icon toggle-btn"
+                  onclick="openMenu()"
+                ></i
+              ></a>
+              <div class="nav-bar" id="nav-bar">
+                <a href="#category" class="link menu">Category</a>
+                <a href="#cart" class="link menu">Cart</a>
+                <a href="#location" class="link menu">Location</a>
+                <a href="#handles" class="link menu">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container col-2 gap-6">
+          <div class="img-ct">
+            <img src="img/hr-img.png" alt="" />
+          </div>
+          <div class="text-ct">
+            <h1 class="text">
+              A symphony of flavors - explore the artistry of Dellish Cakes
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORY SECTION -->
+    <section class="category" id="category">
+      <div class="row">
+        <p class="subheading">Categories</p>
+        <h1 class="primary-heading">Dellishious special cakes</h1>
+        <div class="container col-3 gap-4">
+          <div class="card">
+            <figure class="img-item">
+              <img src="img/img 1.jpg" alt="" />
+            </figure>
+            <p>Cup Cakes</p>
+          </div>
+          <div class="card">
+            <figure class="img-item">
+              <img src="img/img 2.jpg" alt="" />
+            </figure>
+            <p>Birthday Cakes</p>
+          </div>
+          <div class="card">
+            <figure class="img-item">
+              <img src="img/img 3.jpg" alt="" />
+            </figure>
+            <p>Party Cakes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo-section" id="promo">
+      <div class="row">
+        <div class="container promo-ct gap-4">
+          <div class="img-ct promo-img">
+            <img src="img/category/img 2.jpg" alt="" />
+          </div>
+          <div class="text-ct">
+            <h1 class="primary-heading">Hurry up! Limited orders...</h1>
+            <p>
+              On your first order save 50% by using the below code at checkout..
+              <span>LTDONL123</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="address-section" id="location">
+      <div class="row">
+        <div class="address">
+          <p>Visit our shop</p>
+          <p>Daily: 1 p.m. to 10 p.m.</p>
+          <p>268 Smith Street</p>
+          <p>NYC</p>
+          <a href="https://maps.app.goo.gl/qBH5BnN85vkiX2UB9" class="label"
+            >Direction</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="handles">
+      <div class="row">
+        <div class="footer-ct">
+          <div class="ft-logo">
+            <img src="/img/logo.jpeg" alt="Dellish Cakes" />
+          </div>
+          <div class="news-letter">
+            <form action="">
+              <label for="newsletter" class="form-label"
+                >Subscribe to our newsletter</label
+              >
+              <input
+                type="text"
+                class="form-input"
+                id="newsletter"
+                placeholder="example@gmail.com"
+              />
+            </form>
+          </div>
+          <div class="ft-links">
+            <a href="#" class="ft-link"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" class="ft-link"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="ft-link"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" class="ft-link"
+              ><i class="fa-solid fa-map-location-dot"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/fa88744e98.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

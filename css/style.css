@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.row {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.hr-section {
+    background: #CCD9E2;
+    padding-bottom: 2.2rem;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    padding: 1.8rem 0;
+    overflow: hidden;
+}
+
+.nav--bar {
+    overflow: hidden;
+}
+
+.nav-menu {
+    display: inline-block;
+    font-size: 3.2em;
+    width: 6.4rem;
+    color: #0D2239;
+}
+
+.nav-menu img {
+    /* display: inline-block; */
+    width: 100%;
+    border-radius: 25px;
+}
+
+.nav-bar {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.nav-bar a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 1.6em;
+    font-family: "Italiana", sans-serif;
+    font-weight: bold;
+    letter-spacing: .75px;
+}
+
+.nav-bar a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.container {
+    display: grid;
+    padding: 6.4rem 0;
+}
+
+.col-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.col-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-6 {
+    gap: 6.4rem;
+}
+
+.gap-4 {
+    gap: 4.8rem;
+}
+
+.img-ct {
+    width: 100%;
+}
+
+.img-ct img {
+    width: 100%;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.text-ct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-ct .text {
+    font-size: 6.4em;
+    font-family: "Italiana", sans-serif;
+    /* font-weight: 500; */
+}
+
+.category {
+    padding-top: 8.6rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-item {
+    overflow: hidden;
+}
+
+.img-item img {
+    display: block;
+    height: 40rem;
+    width: 100%;
+    transition: all .4s;
+}
+
+.img-item img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.card p {
+    margin-top: 1.6rem;
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: "Italiana", sans-serif;
+}
+
+.primary-heading {
+    font-size: 2.6em;
+    font-family: "Italiana", sans-serif;
+}
+
+.category .subheading {
+    text-align: center;
+    margin-bottom: 1.8rem;
+    font-size: 1.4em;
+    font-family: "Italiana", sans-serif;
+    letter-spacing: .75px;
+}
+
+.category .primary-heading {
+    text-align: center;
+}
+
+.promo-section {
+    padding: 4.8rem 0;
+}
+
+.promo-ct {
+    grid-template-columns: 1fr 2fr;
+}
+
+.promo-img img {
+    border-radius: 50px;
+    width: 30rem;
+    height: 30rem;
+}
+
+.promo-ct .text-ct {
+    align-items: flex-start;
+}
+
+.promo-ct .primary-heading {
+    font-size: 6.4em;
+}
+
+.promo-ct p {
+    font-size: 2.4em;
+    font-family: "Italiana", sans-serif;
+    font-weight: bold;
+    margin-top: 1.2rem;
+}
+
+.address-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        center / cover no-repeat url("/img/bg-img.jpg");
+    padding: 8.6rem 0;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.address p,
+.label {
+    font-size: 2.4em;
+    font-family: "Italiana", sans-serif;
+    margin-bottom: 1.2rem;
+    color: #fff;
+}
+
+.label {
+    display: inline-block;
+    padding: 1.2rem 2rem;
+    background-color: #fff;
+    color: #000;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #000;
+    padding: 8.6rem 0;
+}
+
+.footer-ct {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.ft-logo  img{
+    width: 8.6rem;
+    border-radius: 25px;
+}
+
+.news-letter  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.form-label,
+.form-input {
+    font-family: "Italiana", sans-serif;
+    font-size: 1.6em;
+    letter-spacing: .75px;
+    font-weight: bold;
+}
+
+.form-input {
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 1rem 1.8rem;
+}
+
+.ft-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+}
+
+.ft-link {
+    font-size: 2.6em;
+    color: #fff;
+    text-decoration: none;
+}
