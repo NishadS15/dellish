@@ -203,7 +203,7 @@ html {
 
 .address-section {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        center / cover no-repeat url("img/bg-img.jpg");
+        center / cover no-repeat url("../img/bg-img.jpg");
     padding: 8.6rem 0;
 }
 
